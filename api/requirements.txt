@@ -1,0 +1,14 @@
+﻿fastapi==0.89.1
+httptools==0.5.0
+nltk==3.8.1
+pandas==1.5.3
+pip-chill==1.0.1
+python-dotenv==0.21.1
+sastrawi==1.0.1
+scipy==1.10.0
+torch==1.13.1
+transformers==4.26.0
+tweepy==4.12.1
+uvicorn==0.20.0
+watchfiles==0.18.1
+websockets==10.4

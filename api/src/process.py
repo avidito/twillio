@@ -16,7 +16,7 @@ import torch
 from tqdm import tqdm
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
-API_TOKEN = os.environ.get("API_TOKEN")
+API_TOKEN = os.environ.get("API_TOKEN", "")
 QUERY_TITLES = [
     "big", "mouse", "mouth", "miracle", "in", "no", "cell", "mencuri", "raden", "saleh", "ngeri-ngeri", "sedap", "one", "piece", 
     "red", "cyberpunk", "edgerunners", "ivanna", "purple", "heart", "kkn", "penari", "desa", "thor", "thunder", "love"

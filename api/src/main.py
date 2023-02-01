@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from process import predict_sentiment, count_sentiment
+from src.process import predict_sentiment, count_sentiment
 
 
 app = FastAPI()
